@@ -16,4 +16,4 @@ Here are some introductions about what does each dir and file in this repo do:
 - **`RoBERTa_finetune_CSQA_optimized.ipynb`**: This file contains our best accuracy reached on finetuning RoBERTa on the CommonsenseQA dataset using our self-defined training loop and evaluation loop. Notice that this file also contains our grid search hyperparameter tuning for RoBERTa. Moreover, this file also contains our optimization on RoBERTa finetuning with adding prefixes of 'Q' and 'A' to the questions and answer sentences.
 
 ### `LogisticsRegression-NeuralNetwork/`
-- **`NLP_csqa_LogisticRegression_NeuralNetwork_model_training.ipynb`**: 
+- **`NLP_csqa_LogisticRegression_NeuralNetwork_model_training.ipynb`**: This file contains our implementation of classic machine learning models of Logistic Regression and Neural Networks, and also our grid search for training and hyperparameter tuning on the CommonsenseQA dataset.
