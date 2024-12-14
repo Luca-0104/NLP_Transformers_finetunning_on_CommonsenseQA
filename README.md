@@ -11,9 +11,9 @@ Here are some introductions about what does each dir and file in this repo do:
 - **`BERT_finetune_CSQA_notebook_launcher.ipynb`**: Contains our implementation of fine-tuning BERT on the CommonsenseQA dataset using our self-defined training loop and evaluation loop.
 
 ### `RoBERTA-large/`
-- **`RoBERTa_finetune_CSQA_Trainer.ipynb`**: 
-- **`RoBERTa_finetune_CSQA_notebook_launcher.ipynb`**: 
-- **`RoBERTa_finetune_CSQA_optimized.ipynb`**: 
+- **`RoBERTa_finetune_CSQA_Trainer.ipynb`**: Contains our implementation of fine-tuning RoBERTa on the CommonsenseQA dataset using HugginFace Trainer API.
+- **`RoBERTa_finetune_CSQA_notebook_launcher.ipynb`**: Contains our implementation of fine-tuning RoBERTa on the CommonsenseQA dataset using our self-defined training loop and evaluation loop.
+- **`RoBERTa_finetune_CSQA_optimized.ipynb`**: This file contains our best accuracy reached on finetuning RoBERTa on the CommonsenseQA dataset using our self-defined training loop and evaluation loop. Notice that this file also contains our grid search hyperparameter tuning for RoBERTa. Moreover, this file also contains our optimization on RoBERTa finetuning with adding prefixes of 'Q' and 'A' to the questions and answer sentences.
 
 ### `LogisticsRegression-NeuralNetwork/`
 - **`NLP_csqa_LogisticRegression_NeuralNetwork_model_training.ipynb`**: 
